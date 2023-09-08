@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Hotel Booking Registration</h1>
+    </header>
+    <main>
+        <form id="booking-form">
+            <div class="form-group">
+                <label for="customer-name">Customer Name:</label>
+                <input type="text" id="customer-name" required>
+            </div>
+            <div class="form-group">
+                <label for="check-in-date">Check-in Date:</label>
+                <input type="date" id="check-in-date" required>
+            </div>
+            <div class="form-group">
+                <label for="total-days">Total No of Days:</label>
+                <input type="number" id="total-days" required>
+            </div>
+            <div class="form-group">
+                <label for="total-persons">Total No of Persons:</label>
+                <input type="number" id="total-persons" required>
+            </div>
+           
+            
+            <div class="form-group">
+                <label for="room-type">Room Type:</label>
+                <select id="room-type">
+                    <option value="Delux Room">Delux Room</option>
+                    <option value="Suite Room">Suite Room</option>
+                </select>
+            </div>
+
+           
+            <div class="form-group">
+                <label for="amenities">Amenities:</label>
+                <select id="amenities" multiple>
+                    <option value="AC">AC</option>
+                    <option value="Locker">Locker</option>
+                </select>
+            </div> 
+            
+            <div class="form-group">
+                <label for="advance-amount">Advance Amount*:</label>
+                <input type="number" id="advance-amount" required>
+            </div>
+            <div>
+                <label for="Room Rates"><h2>Room Rates:</h2></label>
+                <h3> Delux Room:
+                2500/day</h3>
+                <h3> Suite Room: 4000/day</h3>
+                <h3> AC: 1000/day  <br><br>
+                Locker: 300/day</h3>
+                
+            </div>
+            <div class="form-group">
+                <button type="button" onclick="calculateTotal()">Calculate Total</button>
+            </div>
+            <div class="form-group">
+                <label for="total-room-cost">Total Room Cost:</label>
+                <input type="text" id="total-room-cost" readonly>
+            </div>
+            <div class="form-group">
+                <label for="total-amenities-cost">Total Amenities Cost:</label>
+                <input type="text" id="total-amenities-cost" readonly>
+            </div>
+            <div class="form-group">
+                <label for="extra-person-charges">Extra Person Charges:</label>
+                <input type="text" id="extra-person-charges" readonly>
+            </div>
+            <div class="form-group">
+                <label for="total-cost">Total Cost:</label>
+                <input type="text" id="total-cost" readonly>
+            </div>
+            <div class="form-group">
+                <label for="balance">Total Balance:</label>
+                <input type="text" id="balance" readonly>
+            </div>
+        </form>
+    </main>
+     
+    <script src="scripts/script.js"></script>
+</body>
+</html>
