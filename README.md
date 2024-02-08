@@ -19,7 +19,7 @@ This project is a hotel booking registration form created using HTML, CSS, and J
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/hotel-booking.git](https://github.com/VipinKumarrj/bhemproject.git
+    git clone https://github.com/VipinKumarrj/Hotel-booking-page.git
     ```
 
 2. Open the `index.html` file in your preferred web browser.
