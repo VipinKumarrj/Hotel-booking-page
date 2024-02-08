@@ -12,6 +12,12 @@ This project is a hotel booking registration form created using HTML, CSS, and J
 
 ## Demo
 
+
+
+https://github.com/VipinKumarrj/Hotel-booking-page/assets/91338595/043c605f-b9a5-42d0-851a-52f470e8d8d7
+
+
+
 ![Hotel Booking](demo.gif)
 
 ## Usage
